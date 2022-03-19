@@ -1,5 +1,5 @@
 package book;
 
-public interface BookPublishInface {
+public BookPublishInface {
     void printToFile();
 }

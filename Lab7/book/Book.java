@@ -8,7 +8,7 @@ import java.util.ListIterator;
 import book.Interfaces.BookPublishIF;
 import book.Interfaces.BookReaderIF;
 
-public class Book implements BookPublishIF, BookReaderIF{
+public class Book implements BookPublishInface, BookReaderInface{
     private String title;
     private List<String> pages;
     private ListIterator<String> iterator;

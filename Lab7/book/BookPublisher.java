@@ -1,11 +1,11 @@
 package book;
 
-import book.Interfaces.BookPublishIF;
+import BookPublishInface;
 import java.util.List;
 
 public class BookPublisher {
     public static void main(String[] args) {
-        BookPublishIF book = new Book("Tyland", List.of("I", "moved", "here", "recently", "too"));
+        BookPublishInface book = new Book("Tyland", List.of("I", "moved", "here", "recently", "too"));
         book.printToFile();
     }
 }
